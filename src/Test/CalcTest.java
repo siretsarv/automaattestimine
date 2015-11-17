@@ -16,7 +16,7 @@ public class CalcTest {
 	}
 	@Test
 	public void shouldAddBonusMoneyToJunior(){
-		assertEquals(320, Calc.payToJunior(20));
+		assertEquals(370, Calc.payToJunior(22));
 	}
 	@Test
 	public void shouldAddOverHourMoneyToJunior(){
@@ -24,11 +24,11 @@ public class CalcTest {
 	}
 	@Test
 	public void shoultReturnSeniorMoney(){
-		assertEquals(45, Calc.payToSenior(3));
+		assertEquals(605, Calc.payToSenior(3));
 	}
 	@Test
 	public void shouldAddBonusMoneyToSenior(){
-		assertEquals(480, Calc.payToSenior(20));
+		assertEquals(560, Calc.payToSenior(22));
 	}
 	@Test
 	public void shouldAddOverHourMoneyToSenior(){
@@ -40,7 +40,7 @@ public class CalcTest {
 	}
 	@Test
 	public void shouldAddBonusMoneyToSpecialist(){
-		assertEquals(924, Calc.payToSpecialist(20));
+		assertEquals(1086, Calc.payToSpecialist(22));
 	}
 	@Test
 	public void shouldAddOverHourMoneyToSpecialist(){
