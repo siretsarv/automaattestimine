@@ -55,7 +55,7 @@ public class Calc {
     	
     	return SENIOR_MONEY;
     }
-    	
+    
     public static int payToSpecialist(final int workHour){
     	if (workHour > NINE_HOURS) { // if longer than nine hours
     		SPECIALIST_MONEY = SPECIALIST_HOUR_MONEY * (workHour - NINE_HOURS) * TRIPLE_PAY; // triple pay after 9 hours
